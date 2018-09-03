@@ -37,7 +37,7 @@ int LinkedList<T>::size() const
 	}
 	while(temp != nullptr)
 	{
-		temp = temp.getNext();
+		temp = temp->getNext();
 		size ++;
 	}
 	return(size);
